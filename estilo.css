@@ -514,7 +514,10 @@ body{
 .blog .fila .col .contenedor-img-metadatos .metadatos{
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 100%;.
+
+
+    
     text-align: center;
     background: rgba(0,0,0,.6);
     color: #fff;
