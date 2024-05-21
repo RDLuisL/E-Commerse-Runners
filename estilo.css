@@ -1,15 +1,15 @@
 :root {
     --color-1: rgba(0,0,0,0.5); /* color fondo de card*/
     --color-2: #fff3d2; /* fondo de cesta de compras */
-    --color-3-text: #000;
+    --color-3-text: white;
     --color-4: #ff6b01;
     --color-5: #fdc20c;
-    --color-6: #444;
+    --color-6: white;
     --color-7: #ccc; /* circulo de cesta de compras */
     --color-8: rgba(255,255,255,.7);
     --color-9: #fdc10e; /* color fondo de 1era miniatura*/
-    --color-10: black;  /* Nombres de tarjetas */
-    --color-11: black; /* Nombre de producto */
+    --color-10: white;  /* Nombres de tarjetas */
+    --color-11: white;  /* Nombre de producto */
     --color-12: #01af67;
     --color-13: #dcdcdc; /* color de borde miniaturas */
     --color-14: #fff1d9; /* color fondo miniaturas*/
@@ -312,7 +312,7 @@ body{
     text-decoration: none;
 }
 .productos .fila .col h2{
-    font-size: 14px;
+    font-size: 25px;
     text-align: center;
     color: var(--color-10);
 }
