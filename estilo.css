@@ -2,7 +2,7 @@
     --color-1: rgba(0,0,0,0.5); /* color fondo de card*/
     --color-2: #fff3d2; /* fondo de cesta de compras */
     --color-3-text: white;
-    --color-4: #ff6b01;
+    --color-4: ;
     --color-5: #fdc20c;
     --color-6: white;
     --color-7: #ccc; /* circulo de cesta de compras */
@@ -65,12 +65,12 @@ body{
 }
 .contenedor header .logo-titulo a{
     text-decoration: none;
-    color: var( --color-3-text);
+    color: var(--color-3-text);
     display: flex;
     align-items: center;
 }
 .contenedor header .logo-titulo i{
-    background-color: var(--color-2);
+    background-color: var();
     font-size: 20px;
     margin-right: 10px;
 }
@@ -79,15 +79,15 @@ body{
 }
 .contenedor header nav a{
     text-decoration: none;
-    color: var( --color-3-text);
+    color: var(--color-3-text);
     font-weight: bold;
     padding: 0 10px;
 }
 .contenedor header nav a:hover{
-    color: var( --color-4)
+    color: var(--color-4);
 }
 .contenedor header nav .selected{
-    color: var( --color-4)
+    color: var(--color-4);
 }
 .contenedor header .carrito{
     font-weight: bold;
@@ -96,7 +96,7 @@ body{
 }
 .contenedor header .carrito a{
     text-decoration: none;
-    color: var( --color-3-text)
+    color: var(--color-3-text)
 }
 .contenedor header .carrito .icono-carrito{
     display: inline-block;
@@ -110,11 +110,11 @@ body{
     position: relative;
 }
 .contenedor header .carrito .icono-carrito:hover{
-    background-color:var( --color-5);
+    background-color:var(--color-5);
 }
 .contenedor header .carrito .total-item-carrito{
     position: absolute;
-    background-color:var( --color-5);
+    background-color:var(--color-5);
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -229,7 +229,7 @@ body{
     height: 30px;
     border-radius: 50%;
     line-height: 30px;
-    color: var( --color-3-text);
+    color: var(--color-3-text);
     text-decoration: none;
     margin-left: 15px;
     text-align: center;
@@ -278,7 +278,7 @@ body{
 }
 .productos .fila .col .like:hover,
 .productos .fila .col .cart:hover{
-    background-color: var( --color-5);
+    background-color: var(--color-5);
 }
   
 /* ...or add this class to an element */
@@ -308,6 +308,11 @@ body{
 .productos .fila .col .contenido:hover img{
     transform: rotate(35deg);
 }
+
+.productos .fila .col .contenido:hover .jordan{
+    transform: rotate(0deg);
+}
+
 .productos .fila .col a{
     text-decoration: none;
 }
@@ -317,7 +322,7 @@ body{
     color: var(--color-10);
 }
 .productos .fila .col .orange{
-    background-color: var( --color-4)
+    background-color: var(--color-4)
 }
 .productos .fila .col .blue{
     background-color: var(--color-11);
@@ -344,7 +349,7 @@ body{
 .productos .fila .circulo{
     width: 120px;
     height: 120px;
-    background-color: var( --color-5);
+    background-color: var(--color-5);
     border: 3px solid var(--color-1);
     border-radius: 50%;
 }
@@ -428,7 +433,7 @@ body{
     margin: 8px 0;
 }
 .detalle-producto .fila .derecha .info-detalle i{
-    color: var( --color-5);
+    color: var(--color-5);
 }
 .detalle-producto .fila .derecha .info-detalle  input[type=radio]{
     appearance: none;
@@ -465,12 +470,12 @@ body{
     cursor: pointer;
 }
 .detalle-producto .fila .derecha .info-detalle  .size-selected{
-    background-color: var( --color-5);
+    background-color: var(--color-5);
 }
 .detalle-producto .fila .derecha .btn-agregar-carrito{
     width: auto;
-    background-color: var( --color-3-text);
-    color: var( --color-5);
+    background-color: var(--color-3-text);
+    color: var(--color-5);
     border: none;
     padding: 10px;
     width: fit-content;
@@ -479,7 +484,7 @@ body{
     cursor: pointer;
 }
 .subtitulo-seccion{
-    color: var( --color-3-text);
+    color: var(--color-3-text);
     margin: 30px 0;
     text-align: center;
     
@@ -558,7 +563,7 @@ body{
 }
 .blog .fila .col .contenido a{
    text-decoration: none;
-   color: var( --color-4)
+   color: var(--color-4)
 }
 .blog .fila .col .contenido a:hover{
     text-decoration: underline;
@@ -611,8 +616,8 @@ body{
 }
 .contacto .fila .col .btn-contacto{
     width: auto;
-    background-color: var( --color-3-text);
-    color: var( --color-5);
+    background-color: var(--color-3-text);
+    color: var(--color-5);
     border: none;
     padding: 10px;
     width: fit-content;
@@ -746,8 +751,8 @@ body{
 }
 .mi-carrito .productos-carrito .finalizar-compra .btn-pagar{
     width: auto;
-    background-color: var( --color-3-text);
-    color: var( --color-5);
+    background-color: var(--color-3-text);
+    color: var(--color-5);
     border: none;
     padding: 10px;
     width: fit-content;
@@ -901,11 +906,11 @@ body{
 footer{
     padding: 1em 0;
     text-align: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: red;
+    color: black;
     font-style: italic;
     z-index: 100;
 }
